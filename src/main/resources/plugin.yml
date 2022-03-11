@@ -1,0 +1,24 @@
+name: Quaintified
+version: 'FIX THIS'
+main: com.dndcraft.quaint.quaintified.Quaintified
+api-version: 1.18
+depend:
+  - Atlas
+
+commands:
+  hello-there:
+    description: The most basic of greetings!
+    usage: /hello-there
+    permission: "quaintified.command.hello"
+  tuesday:
+    description: Just another Tuesday...
+    usage: /tuesday <taco | beans>
+    permission: "quaintified.command.tuesday"
+  menu:
+    description: Pulls up a cool menu!
+    usage: /menu
+    permission: "quaintified.command.menu"
+  nbt:
+    description: Gives you an interesting item...
+    usage: /nbt
+    permission: "quaintified.command.nbt"
